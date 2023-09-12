@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         for(int i=0;i<uname.length;i++){
             Oblist oblist = new Oblist(uname[i],msg[i],time[i],dp[i]);
             arr.add(oblist);
+
+
         }
 //        myArrayAdapter myAdapter = new myArrayAdapter(this,R.layout.chatview,arr);
 //        myList.setAdapter(myAdapter);
